@@ -1,0 +1,25 @@
+.text-block{
+	background: #f3f0e9;
+	.container{
+		padding: 8rem 3rem;
+		max-width: 85.6rem;
+		text-align: center;
+	}
+	h3{
+		font: 2.4rem $font-bold;
+	}
+	p{
+		padding-top: 1.2rem;
+		font-size: 2.2rem;
+		line-height: 3rem;
+	}
+}
+.pb{
+	padding-bottom: 10rem;
+}
+
+@media screen and (max-width: 576px){
+.text-block .container{
+	padding: 5rem 3rem;
+}
+}

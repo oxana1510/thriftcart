@@ -1,0 +1,87 @@
+@font-face {font-family: "HelveticaNeue45Light";
+    display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/HelveticaNeue45Light.eot");
+    src: url("../fonts/HelveticaNeue45Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeue45Light.woff2") format("woff2"),
+    url("../fonts/HelveticaNeue45Light.woff") format("woff"),
+    url("../fonts/HelveticaNeue45Light.ttf") format("truetype"),
+    url("../fonts/HelveticaNeue45Light.svg#HelveticaNeueLTStd-Lt") format("svg");
+}
+
+@font-face {font-family: "HelveticaNeue35Thin";
+    display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/HelveticaNeue35Thin.eot");
+    src: url("../fonts/HelveticaNeue35Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeue35Thin.woff2") format("woff2"),
+    url("../fonts/HelveticaNeue35Thin.woff") format("woff"),
+    url("../fonts/HelveticaNeue35Thin.ttf") format("truetype"),
+    url("../fonts/HelveticaNeue35Thin.svg#HelveticaNeue-Thin") format("svg");
+}
+@font-face {font-family: "FuturaBTW01Medium";
+  display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/FuturaBTW01Medium.eot"); /* IE9*/
+  src: url("../fonts/FuturaBTW01Medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/FuturaBTW01Medium.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/FuturaBTW01Medium.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/FuturaBTW01Medium.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/FuturaBTW01Medium.svg#FuturaBTW01-Medium") format("svg"); /* iOS 4.1- */
+}
+
+
+@font-face {font-family: "HelveticaNeueBold";
+    font-display: swap;
+    src: url("../fonts/HelveticaNeueCyr-Bold.eot");
+    src: url("../fonts/HelveticaNeueCyr-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff"),
+    url("../fonts/HelveticaNeueCyr-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+$font1: "HelveticaNeue45Light", sans-serif;
+$font2: "HelveticaNeue35Thin", sans-serif;
+$font3: "FuturaBTW01Medium", sans-serif;
+$font-bold: "HelveticaNeueBold", sans-serif;
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?3450065');
+  src: url('../fonts/fontello.eot?3450065#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff2?3450065') format('woff2'),
+       url('../fonts/fontello.woff?3450065') format('woff'),
+       url('../fonts/fontello.ttf?3450065') format('truetype'),
+       url('../fonts/fontello.svg?3450065#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ 
+.icon-ok:before { content: '\e800'; } /* '' */

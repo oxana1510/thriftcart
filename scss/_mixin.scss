@@ -1,0 +1,13 @@
+@mixin button{
+	display: block;
+	margin: auto;
+	cursor: pointer;
+	text-transform: uppercase;
+	border-radius: 3.1rem;
+	background: #ffae00;
+	font: 2rem $font-bold;
+	color: #fff;
+	padding: 1.9rem 0;
+	text-align: center;
+	width: 100%;
+}

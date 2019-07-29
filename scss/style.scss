@@ -1,0 +1,63 @@
+@import "fonts";
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+              box-sizing: border-box;
+}
+:root{
+	font-size: 10px;
+	@media screen and (max-width: 576px){
+		font-size: 9px;
+	}
+}
+body{
+	overflow-x: hidden;
+}
+.wrapper{
+	min-width: 320px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-family: $font1;	
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+h1, 
+h2,
+h3,
+h4{
+	font-weight: normal;
+}
+.container{
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 100%;
+}
+.title{
+	font: 4.5rem/3.5rem $font2;
+	@media screen and (max-width: 576px){
+		font-size: 3.8rem;
+	}
+}
+
+.read-more{
+	text-transform: uppercase;
+}
+@import "mixin";
+@import "header";
+@import "slider";
+@import "text-block";
+@import "phone-block";
+@import "information";
+@import "footer";
+
+
+@import "page-title";
+@import "contact-form";
+@import "slider2";
+@import "pricing-block";

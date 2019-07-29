@@ -1,0 +1,68 @@
+.information{
+	position: relative;
+	background:  #e8f2f6;
+	text-align: center;
+	.container{
+		padding: 4rem 3rem 9.5rem
+	}
+	&__link{
+		position: absolute;
+		display: block;
+		max-width: 61.9rem;
+		width: 100%;
+		color: #fff;
+		font: 2rem $font-bold;
+		text-transform: uppercase;
+		border-radius: 3.1rem;
+		padding:  2rem 0.5rem 1.8rem 0.5rem;
+		text-align: center;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+	.link-clr1{
+		text-shadow: 0 0 0.4rem rgba(255, 138, 0, 0.75);
+		background: #ffae00;
+		top: -3rem;
+		&:hover{
+			background: #1283b3;
+			text-shadow: none;
+		}
+	}
+	.link-clr2{
+		background: #1283b3;
+		bottom: -3rem;
+		&:hover{
+			background: #ffae00;
+		}
+	}
+	p{
+		color: #1283b3;
+		font: 1.3rem/3.5rem $font-bold;
+		text-transform: uppercase;
+		padding-bottom: 5rem;
+	}
+}
+
+@media screen and (max-width: 768px){
+.information{
+	&__link{
+		width: 90%;
+	}
+}
+}
+@media screen and (max-width: 576px){
+.information{
+	&__link{
+		font-size: 1.4rem;
+	}
+}
+}
+
+@media screen and (max-width: 350px){
+.information{
+	&__link{
+		font-size: 1.3rem;
+	}
+}
+}

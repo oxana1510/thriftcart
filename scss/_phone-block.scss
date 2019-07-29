@@ -1,0 +1,297 @@
+.phone-block{
+	background-size: 100%;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	p{
+		font-size: 1.8rem;
+		line-height: 3.5rem;
+		color: #575757;
+	}
+	.container{
+		max-width: 104rem;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		padding: 8.5rem 3rem 21rem;
+	}
+	&__text{
+		max-width: 54.8rem;
+		.title{
+			color: #1283b3;
+			line-height: 5.5rem;
+			padding-bottom: 3rem;
+		}
+		p{
+			padding-bottom: 3rem;
+		}
+	}
+	&__img{
+		padding: 15.5rem 6.5rem 49.5rem;
+		background-repeat: no-repeat;
+		background-position: center;
+		text-align: center;
+		max-width: 43.8rem;
+		.title{
+			padding-bottom: 5rem;
+		}
+	}
+	.read-more{
+		display: block;
+		width: 18.6rem;
+		border-radius: 2.8rem;
+		background: #1283b3;
+		color: #fff;
+		font: 1.7rem $font-bold;
+		text-transform: uppercase;
+		padding: 1.9rem 0;
+		text-align: center;
+		&:hover{
+			background: #ffae00;
+		}
+	}
+}
+.phone-bg1{
+	background-image: url(../img/bg-phone1.jpg);
+}
+.phone-img1{
+	background-image: url(../img/phone1.png);
+}
+
+.phone-bg2{
+	position: relative;
+	background-image: url(../img/phone-bg2.jpg);
+	background-color: #e8f2f6;
+	.container{
+		position: relative;
+		top: -3rem;
+		padding-bottom: 26rem;
+	}
+	.phone-block__text{
+		padding-top: 3rem;
+	}
+	&:before{
+		position: absolute;
+	    left: 0;
+	    right: 0;
+	    top: -14rem;
+	    -webkit-transform: rotate(3deg);
+	    -ms-transform: rotate(3deg);
+	    transform: rotate(3deg);
+	    -webkit-transform-origin: 0 0;
+	    -ms-transform-origin: 0 0;
+	    transform-origin: 0 0;
+	    content: "";
+	    width: 102vw;
+	    height: 20rem;
+    	background:  #e8f2f6;
+	}
+
+}
+.phone-img2{
+	background-image: url(../img/phone2.png);
+}
+.phone-bg3{
+	background-image: url(../img/bg-phone3.jpg);
+	.container{
+		padding-bottom: 13rem;
+	}
+}
+.phone-img3{
+	background-image: url(../img/phone3.png);
+}
+.pr{
+	padding-right: 5.5rem;
+}
+.pl{
+	padding-left: 5.5rem;
+}
+
+@media screen and (max-width: 1050px){
+.pr{
+	padding-right: 2.5rem;
+}
+.pl{
+	padding-left: 2.5rem;
+}
+.phone-block__text{
+	max-width: 47.8rem
+}
+}
+
+
+@media screen and (max-width: 992px){
+.phone-block{
+	.container{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	&__text{
+		max-width: 100%;
+		padding-bottom: 3rem;
+		.title,
+		p{
+			text-align: center;
+		}
+	}
+	.read-more{
+		margin: auto;
+	}
+}
+.pr{
+	padding-right: 0;
+}
+.pl{
+	padding-left: 0;
+}
+.phone-bg2 .container{
+	top: -2rem;
+	padding-top: 0;
+	padding-bottom: 10rem;
+}
+}
+
+@media screen and (max-width: 576px){
+.phone-block__img{
+	background-size: contain;
+	background-position: top;
+	padding: 12.5rem 6.5rem 42rem;
+}
+}
+@media screen and (max-width: 470px){
+.phone-block__img{
+	.title{
+		padding-bottom: 2rem;
+	}
+	p{
+		line-height: 2.5rem;
+	}
+}
+}
+
+@media screen and (max-width: 390px){
+.phone-block__img{
+	padding: 7.5rem 6.5rem 29rem;
+	.title{
+		font-size: 3rem;
+	}
+	p{
+		font-size: 1.6rem;
+	}
+}
+}
+
+/*===========vantiv=============*/
+.vantiv{
+	position: relative;
+	.container{
+		position: relative;
+		max-width: 1280px;
+		padding: 17rem 0 27rem 3rem;
+	}
+	&__logo{
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: -14rem;
+		border-radius: 50%;
+		background: #fff;
+		height: 42rem;
+		width: 42rem;
+		text-align: center;
+		padding-top: 6rem;
+		margin: auto;
+	}
+	&__img{
+		position: absolute;
+		right: -42rem;
+		top: 13rem;
+		.plus{
+			position: absolute;
+			z-index: 10;
+			left: -5.6rem;
+			top: calc( 50% - 5.6rem);
+			display: block;
+			font: 7.8rem $font-bold;
+			color: #1283b3;
+			width: 11.2rem;
+			height: 11.2rem;
+			border-radius: 50%;
+            -webkit-box-shadow: 0 0 0.4rem rgba(24, 24, 24, 0.4);
+                    box-shadow: 0 0 0.4rem rgba(24, 24, 24, 0.4);
+			background: rgba(255, 255, 255, 0.8);
+			text-align: center;
+			span{
+				display: block;
+				line-height: 10.7rem;
+				vertical-align: super;
+				-webkit-transition: all 0.2s linear;
+				-o-transition: all 0.2s linear;
+				transition: all 0.2s linear;
+			}
+			&:hover span{
+				transform: scale(1.2, 1.2);
+			}
+		}
+	}
+	.phone-block__text{
+		position: relative;
+		z-index: 9;
+		padding-right: 0.5rem;
+		margin-right: 65rem;
+	}
+}
+
+@media screen and (max-width: 1100px){
+.vantiv .container{
+	padding: 10rem 0 10rem 3rem;
+}
+}
+@media screen and (max-width: 992px){
+.vantiv{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	.container{
+		padding: 10rem 3rem;
+	}
+	.phone-block__text{
+		max-width: 100%;
+		margin-right: 0;
+	}
+	&__img{
+		position: relative;
+		right: -8rem;
+		top: 0;
+		.plus{
+			top: -5rem;
+			left: -8rem;
+			right: 0;
+			margin: auto;
+		}
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+}
+
+
+@media screen and (max-width: 576px){
+.vantiv{
+	&__logo{
+		width: 32rem;
+		height: 32rem;
+		top: -10rem;
+	}
+}
+}
